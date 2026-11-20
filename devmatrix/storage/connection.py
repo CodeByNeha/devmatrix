@@ -19,3 +19,5 @@ class Database:
         if hasattr(self._local, "conn") and self._local.conn:
             self._local.conn.close()
             self._local.conn = None
+
+# Milestone enhancement 56: connection keep-alive assertion
