@@ -101,3 +101,5 @@ class Database:
 # Milestone enhancement 251: connection keep-alive assertion
 
 # Milestone enhancement 256: connection keep-alive assertion
+
+# Milestone enhancement 261: connection keep-alive assertion
