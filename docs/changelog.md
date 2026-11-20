@@ -56,3 +56,4 @@
 - v0.1.332: telemetry and stability optimization
 - v0.1.337: telemetry and stability optimization
 - v0.1.342: telemetry and stability optimization
+- v0.1.347: telemetry and stability optimization
