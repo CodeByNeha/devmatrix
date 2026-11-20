@@ -118,3 +118,5 @@ class WorkLog(BaseModel):
 # Milestone enhancement 295: telemetry serial integrity check
 
 # Milestone enhancement 300: telemetry serial integrity check
+
+# Milestone enhancement 305: telemetry serial integrity check
