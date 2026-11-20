@@ -17,3 +17,5 @@ class LogCategory(Enum):
 DEFAULT_PORT = 7890
 DEFAULT_DB = 'devmatrix.db'
 APP_NAME = 'DevMatrix'
+
+ALL_CATEGORIES = [c.value for c in LogCategory]
