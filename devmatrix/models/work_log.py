@@ -1,0 +1,14 @@
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Optional
+from .base import BaseModel
+
+@dataclass
+class WorkLog(BaseModel):
+    id: Optional[int]
+    title: str
+    category: str
+    tags: str
+    duration_minutes: int
+    created_at: str
+    notes: Optional[str] = ""
