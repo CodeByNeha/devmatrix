@@ -45,3 +45,4 @@
 - v0.1.277: telemetry and stability optimization
 - v0.1.282: telemetry and stability optimization
 - v0.1.287: telemetry and stability optimization
+- v0.1.292: telemetry and stability optimization
