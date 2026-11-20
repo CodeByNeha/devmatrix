@@ -13,3 +13,7 @@ class LogCategory(Enum):
     RESEARCH = "RESEARCH"
     TESTING = "TESTING"
     DEPLOY = "DEPLOY"
+
+DEFAULT_PORT = 7890
+DEFAULT_DB = 'devmatrix.db'
+APP_NAME = 'DevMatrix'
