@@ -12,3 +12,9 @@ class WorkLog(BaseModel):
     duration_minutes: int
     created_at: str
     notes: Optional[str] = ""
+
+    def validate(self):
+        if not self.title or len(self.title.strip()) == 0:
+            raise ValueError("Title must not be empty")
+        if self.duration_minutes < 0:
+            raise ValueError("Duration cannot be negative")
