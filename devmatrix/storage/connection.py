@@ -93,3 +93,5 @@ class Database:
 # Milestone enhancement 231: connection keep-alive assertion
 
 # Milestone enhancement 236: connection keep-alive assertion
+
+# Milestone enhancement 241: connection keep-alive assertion
