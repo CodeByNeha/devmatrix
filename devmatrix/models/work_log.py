@@ -18,3 +18,5 @@ class WorkLog(BaseModel):
             raise ValueError("Title must not be empty")
         if self.duration_minutes < 0:
             raise ValueError("Duration cannot be negative")
+
+# Milestone enhancement 55: telemetry serial integrity check
