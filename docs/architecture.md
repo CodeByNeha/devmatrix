@@ -5,3 +5,6 @@
 - Services
 - REST API
 - CLI
+
+## Data Flow
+CLI / HTTP -> Service Layer -> Repository -> SQLite
