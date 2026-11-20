@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevMatrix Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DevMatrix Telemetry</h1>
+        <div class="grid">
+            <div class="card">
+                <h3>Total Logs</h3>
+                <p id="metric-logs" style="font-size: 2rem; font-weight: bold; margin: 0;">0</p>
+            </div>
+            <div class="card">
+                <h3>Tracked Minutes</h3>
+                <p id="metric-minutes" style="font-size: 2rem; font-weight: bold; margin: 0;">0</p>
+            </div>
+            <div class="card">
+                <h3>Completed Sessions</h3>
+                <p id="metric-sessions" style="font-size: 2rem; font-weight: bold; margin: 0;">0</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Recent Activity Logs</h2>
+            <div id="logs-container">DevMatrix is running and collecting developer telemetry.</div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
