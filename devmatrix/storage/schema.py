@@ -29,3 +29,7 @@ CREATE TABLE IF NOT EXISTS tags (
 CREATE INDEX IF NOT EXISTS idx_logs_category ON work_logs(category);
 CREATE INDEX IF NOT EXISTS idx_logs_created_at ON work_logs(created_at);
 """
+
+SCHEMA_SQL += """
+CREATE INDEX IF NOT EXISTS idx_logs_composite ON work_logs(category, created_at);
+"""
