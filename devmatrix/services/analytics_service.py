@@ -129,3 +129,5 @@ class AnalyticsService:
 # Metric aggregation enhancement 308
 
 # Metric aggregation enhancement 313
+
+# Metric aggregation enhancement 318
