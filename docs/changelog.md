@@ -8,3 +8,4 @@
 - v0.1.92: telemetry and stability optimization
 - v0.1.97: telemetry and stability optimization
 - v0.1.102: telemetry and stability optimization
+- v0.1.107: telemetry and stability optimization
